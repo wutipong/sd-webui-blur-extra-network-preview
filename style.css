@@ -1,3 +1,15 @@
-.blur-content {
-    filter:blur(20px);
+.extra-network-cards .card img.preview {
+    filter: blur(20px);
+}
+
+.extra-network-cards .card img.preview:hover {
+    filter: none;
+}
+
+.standalone-card-preview.card img.preview {
+    filter: blur(20px);
+}
+
+.standalone-card-preview.card img.preview:hover {
+    filter: none;
 }
